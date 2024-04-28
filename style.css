@@ -1,0 +1,513 @@
+.screen_container {
+    display: flex;
+    align-items: center; 
+
+}
+
+/***********/
+/* buttons */
+/***********/
+
+.add_bird_container {
+    /* position */
+    width: 150px; 
+    min-width: 150px;
+    position: fixed;
+
+    top: 10%;
+    left: 0%; 
+}
+
+.birds_buttons{
+    width: 90px; 
+    height: 90px;
+    margin-bottom: 10px;
+
+    /* Circle */
+    background-color: white; 
+    border: 3px solid black; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text */
+    color: black; 
+    font-family: narkiss-yair-variable, sans-serif;
+    font-variation-settings: "MONO" 100, "wght" 400;
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+
+/********/
+/* text */
+/********/
+
+.text_container {
+    max-width: 1000px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+
+/************/
+/* headline */
+/************/
+
+
+.headline_container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    font-family: greycliff-hebrew-cf, sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
+    
+    margin-top: 150px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+h2 {
+    font-family: narkiss-hadash, sans-serif;
+    font-weight:normal;
+    font-size: 20px;
+
+    margin-top: 0px;
+    margin-bottom: 100px;
+    line-height: 1;
+
+}
+
+/*************/
+/* main text */
+/*************/
+
+.general_main_text_container {
+    max-width: 700px;
+    margin: auto;
+
+    margin-top: -20px;
+    margin-bottom: -20px;
+    min-width: 400px;
+}
+
+.p_container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.main_text_container {
+    font-family: narkiss-hadash, sans-serif;
+    font-weight:light;
+    font-size: 18px;
+    line-height: 1.4;
+
+    min-width: 200px;
+}
+
+.weird_text_container {
+    font-family: greycliff-hebrew-cf, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-top: -10px;
+
+    min-width: 200px;
+
+}
+
+.sidenotes_text_container {
+    font-family: narkiss-yair-variable, sans-serif;
+    font-variation-settings: "MONO" 100, "wght" 200;
+    font-weight: lighter;
+    line-height: 1.2;
+    font-size: 14px;
+
+    min-width: 100px;
+
+}
+
+.sidenotes_in_text{
+    font-family: narkiss-yair-variable, sans-serif;
+    font-variation-settings: "MONO" 100, "wght" 200;
+    font-weight: lighter;
+    line-height: 1;
+    vertical-align: top;
+    margin-right: -3px; 
+    font-size: 11px;
+}
+
+/******/
+/* p1 */
+/******/
+
+
+.p1_container {
+    margin-left: 80px;
+    margin-right: 0px;
+}
+
+.p1_main_text_container {
+    width: 500px;
+}
+
+.p1_weird_text_container {
+    width: 300px;
+    text-align: left;
+}
+
+/******/
+/* p2 */
+/******/
+
+.p2_container {
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+.p2_main_text_container {
+    width: 300px;
+}
+
+.p2_weird_text_container {
+    width: 250px;
+}
+
+/******/
+/* p3 */
+/******/
+
+.p3_container {
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-top: -20px;
+    gap: 30px;
+}
+
+.p3_main_text_container {
+    width: 500px;
+}
+
+.p3_sidenotes_text_container {
+    width: 150px;
+}
+
+/******/
+/* p4 */
+/******/
+
+
+.p4_container {
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: -20px;
+}
+
+.p4_main_text_container {
+    width: 500px;
+}
+
+.p4_weird_text_container {
+    width: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/******/
+/* p5 */
+/******/
+
+
+.p5_container {
+    margin-left: 300px;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+
+.p5_weird_text_container {
+    width: 500px;
+    margin-right: 50px;
+}
+
+/******/
+/* p6 */
+/******/
+
+
+.p6_container {
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+
+.p6_main_text_container {
+    width: 250px;
+    margin-right: 20px;
+}
+
+/******/
+/* p7 */
+/******/
+
+
+.p7_container {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+
+.p7_first_weird_text_container {
+    width: 200px;
+    margin-left: 50px;
+    text-align: left;
+
+}
+
+.p7_second_weird_text_container {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 300px;
+
+}
+
+/******/
+/* p8 */
+/******/
+
+.p8_container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+.p8_main_text_container {
+    width: 250px;
+}
+
+.p8_weird_text_container {
+    width: 250px;
+}
+
+
+/******/
+/* p9 */
+/******/
+
+.p9_container {
+    margin-left: 0px;
+    margin-right: 400px;
+}
+
+.p9_main_text_container {
+    width: 300px;
+}
+
+.p9_sidenotes_text_container {
+    width: 150px;
+}
+
+/*******/
+/* p10 */
+/*******/
+
+.p10_container {
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: -100px;
+}
+
+.p10_first_main_text_container {
+    width: 500px;
+}
+
+/*******/
+/* p11 */
+/*******/
+
+
+.p11_container {
+    margin-left: 8px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.p11_main_text_container {
+    width: 400px;
+}
+
+.p11_weird_text_container {
+    margin-top: 200px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.p11_sidenotes_text_container {
+    width: 150px;
+}
+
+/*******/
+/* p12 */
+/*******/
+
+
+.p12_container {
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.p12_weird_text_container {
+    width: 480px;
+
+}
+
+
+.p12_up{
+    vertical-align: super;
+    margin-right: -3px; 
+    margin-left: -3px; 
+
+}
+
+.p12_down{
+    vertical-align: sub;
+    margin-right: -3px; 
+    margin-left: -3px; 
+
+}
+
+/*******/
+/* p13 */
+/*******/
+
+
+.p13_container {
+    margin-left: 0px;
+    margin-top: -130px;
+}
+
+.p13_weird_text_container {
+    width: 230px;
+}
+
+/*******/
+/* p14 */
+/*******/
+
+
+.p14_container {
+    margin-right: 150px;
+    margin-top: -10px;
+}
+
+.p14_weird_text_container {
+    width: 300px;
+    text-align: left;
+}
+
+/*******/
+/* p15 */
+/*******/
+
+.p15_container {
+    margin-left: 0px;
+    margin-right: 200px;
+}
+
+.p15_main_text_container {
+    width: 300px;
+}
+
+.p15_weird_text_container {
+    width: 300px;
+}
+
+/*******/
+/* p16 */
+/*******/
+
+.p16_container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+
+.p16_main_text_container {
+    width: 70px;
+}
+
+.p16_image_container {
+    width: 700px;
+}
+
+/*******/
+/* p17 */
+/*******/
+
+.p17_container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 150px;
+}
+
+.p17_weird_text_container {
+    width: 150px;
+}
+
+/*******/
+/* p18 */
+/*******/
+
+.p18_container {
+    margin-left: 0px;
+    margin-right: 600px;
+    margin-bottom: 50px;
+}
+
+.p18_main_text_container {
+    width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+
+
+
+/*********/
+/* birds */
+/*********/
+
+.imgae_container {
+    position: relative; 
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.moving-image {
+    position: fixed; 
+    right: 0; 
+    /* Maintain aspect ratio */
+    width: 100px; 
+    height: auto; 
+    /* Ensure the image appears above other content */
+    z-index: 9999; 
+    animation: moveImage 10s linear infinite;
+}
+
+@keyframes moveImage {
+    0% {
+        right: 0; 
+    }
+    100% {
+        right: 100%;
+    }
+}
