@@ -35,4 +35,18 @@ document.addEventListener('DOMContentLoaded', function() {
     removeAllImagesBtn.addEventListener('click', function() {
         removeAllMovingImages(); 
     });
+
+    window.addEventListener('resize', function() {
+        const addButton = document.getElementById('addirdBtn');
+        const removeAllBirdsBtn = document.getElementById('removeAllBirdsBtn');
+        if (window.innerWidth <= 768) {
+            addButton.textContent = '+';
+            removeAllBirdsBtn.textContent = '-';
+        } else {
+            addButton.textContent = 'הוסף ציפור';
+            removeAllBirdsBtn.textContent = 'הסר ציפורים';
+        }
+
+        
+      });
 });
